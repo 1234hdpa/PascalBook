@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Pascal Book</string>
+    <string name="tdch0">Các khái niệm cơ bản</string>
+    <string name="gtch0">Giới thiệu các quy tắc cơ bản của Pascal</string>
+    <string name="tdch1">Cấu trúc lệnh rẽ nhánh</string>
+    <string name="gtch1">Tìm hiểu về lệnh \"if… then…\", \"case… of…\" \nvà các câu lệnh điều kiện khác</string>
+    <string name="gtch2">Tìm hiểu về lệnh \"while… do…\", \"for… do…\" \nvà các cấu trúc lệnh vòng lặp khác</string>
+    <string name="tdch2">Cấu trúc lệnh vòng lặp</string>
+    <string name="gtch3">Tạo và quản lý mảng một chiều, mảng \nnhiều chiều. Ứng dụng trong thực tế</string>
+    <string name="tdch3">Mảng</string>
+    <string name="tdch4">Xâu kí tự</string>
+    <string name="gtch4">Tạo và quản lý xâu ký tự</string>
+    <string name="tdch5">Thủ tục và hàm</string>
+    <string name="gtch5">Tìm hiểu và ứng dụng thủ tục và hàm  để tối ưu chương trình</string>
+    <string name="tdch6">Bản ghi</string>
+    <string name="gtch6">Tìm hiểu và ứng dụng cấu trúc bản ghi</string>
+    <string name="title_activity_chon_noi_dung">ChonNoiDung</string>
+    <string name="mdchude">Tên chủ đề</string>
+    <string name="mdgioithieu">Giới thiệu chủ đề</string>
+    <string name="th">Tìm hiểu</string>
+    <string name="vd">Ví dụ</string>
+    <string name="thanh">Thực hành</string>
+</resources>

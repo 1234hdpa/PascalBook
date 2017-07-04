@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mwolfinspace.pascalbook.Manhinhchinh">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_light"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:id="@+id/chude0"
+                android:onClick="buttonPress">
+
+                <TextView
+                    android:id="@+id/tieudech0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/tdch0"
+                    android:textAlignment="gravity"
+                    style="@style/co_chu_tieu_de"/>
+
+                <TextView
+                    android:id="@+id/gtch0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:text="@string/gtch0"
+                    style="@style/co_chu_noi_dung"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_orange_light"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:id="@+id/chude1"
+                android:onClick="buttonPress">
+
+                <TextView
+                    android:id="@+id/tieudech1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/tdch1"
+                    android:textAlignment="gravity"
+                    style="@style/co_chu_tieu_de"/>
+
+                <TextView
+                    android:id="@+id/gtch1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="50dp"
+                    android:text="@string/gtch1"
+                    style="@style/co_chu_noi_dung"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:id="@+id/chude2"
+                android:onClick="buttonPress">
+
+                <TextView
+                    android:id="@+id/tieudech2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/tdch2"
+                    android:textAlignment="gravity"
+                    style="@style/co_chu_tieu_de"/>
+
+                <TextView
+                    android:id="@+id/gtch2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="50dp"
+                    android:text="@string/gtch2"
+                    style="@style/co_chu_noi_dung"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_light"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:id="@+id/chude3"
+                android:onClick="buttonPress">
+
+                <TextView
+                    android:id="@+id/tieudech3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/tdch3"
+                    android:textAlignment="gravity"
+                    style="@style/co_chu_tieu_de"/>
+
+                <TextView
+                    android:id="@+id/gtch3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="50dp"
+                    android:text="@string/gtch3"
+                    style="@style/co_chu_noi_dung"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#80deea"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:id="@+id/chude4"
+                android:onClick="buttonPress">
+
+                <TextView
+                    android:id="@+id/tieudech4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/tdch4"
+                    android:textAlignment="gravity"
+                    style="@style/co_chu_tieu_de"/>
+
+                <TextView
+                    android:id="@+id/gtch4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="50dp"
+                    android:text="@string/gtch4"
+                    style="@style/co_chu_noi_dung"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ccff90"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:id="@+id/chude5"
+                android:onClick="buttonPress">
+
+                <TextView
+                    android:id="@+id/tieudech5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/tdch5"
+                    android:textAlignment="gravity"
+                    style="@style/co_chu_tieu_de"/>
+
+                <TextView
+                    android:id="@+id/gtch5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="50dp"
+                    android:text="@string/gtch5"
+                    style="@style/co_chu_noi_dung"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9e9d24"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:id="@+id/chude6"
+                android:onClick="buttonPress">
+
+                <TextView
+                    android:id="@+id/tieudech6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/tdch6"
+                    android:textAlignment="gravity"
+                    style="@style/co_chu_tieu_de"/>
+
+                <TextView
+                    android:id="@+id/gtch6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="50dp"
+                    android:text="@string/gtch6"
+                    style="@style/co_chu_noi_dung"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

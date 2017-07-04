@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.mwolfinspace.pascalbook.ChonNoiDung"
+    tools:showIn="@layout/activity_chon_noi_dung">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:background="#fff9c4">
+
+        <TextView
+            style="@style/co_chu_tieu_de"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mdchude"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            />
+
+        <TextView
+            style="@style/co_chu_noi_dung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mdgioithieu"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="6dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:id="@+id/timhieubutton"
+            android:background="#f48fb1">
+
+            <Button
+                android:id="@+id/timhieuicon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="0"
+                android:background="@color/colorPrimary" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:layout_marginLeft="12dp"
+                android:text="@string/th"
+                style="@style/co_chu_tieu_de"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:id="@+id/vidubutton"
+            android:background="#90caf9">
+
+            <Button
+                android:id="@+id/viduicon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="0"
+                android:background="#c0ca33" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:layout_marginLeft="12dp"
+                android:text="@string/vd"
+                style="@style/co_chu_tieu_de"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:id="@+id/thuchanhbutton"
+            android:background="#ffee58">
+
+            <Button
+                android:id="@+id/thuchanhicon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="0"
+                android:background="#d84315" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:layout_marginLeft="12dp"
+                android:text="@string/thanh"
+                style="@style/co_chu_tieu_de"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:id="@+id/tracnghiembutton"
+            android:background="#b2ff59">
+
+            <Button
+                android:id="@+id/tracnghiemicon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="0"
+                android:background="#9c27b0" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:layout_marginLeft="12dp"
+                android:text="Trắc nghiệm"
+                style="@style/co_chu_tieu_de"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
