@@ -28,6 +28,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.mwolfinspace.pascalbook.Manhinhchinh" />
         </activity>
+        <activity android:name=".LoadContent"></activity>
     </application>
 
 </manifest>

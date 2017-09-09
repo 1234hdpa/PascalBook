@@ -1,5 +1,6 @@
 package com.mwolfinspace.pascalbook;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -82,6 +83,26 @@ public class ChonNoiDung extends AppCompatActivity {
                 change_name.setText(tdch6);
                 change_info.setText(gtch6);
                 getSupportActionBar().setTitle(tdch6);
+                break;
+        }
+    }
+
+
+    public void buttonPress(View v) {
+        Intent intent_0 = new Intent(ChonNoiDung.this, LoadContent.class);
+        //TODO: Tuỳ chĩnh nút theo nội dung
+        switch (v.getId()) {
+            case R.id.timhieubutton:
+                startActivity(intent_0);
+                break;
+            case R.id.vidubutton:
+                startActivity(intent_0);
+                break;
+            case R.id.thuchanhbutton:
+                startActivity(intent_0);
+                break;
+            case R.id.tracnghiembutton:
+                startActivity(intent_0);
                 break;
         }
     }
