@@ -12,7 +12,7 @@ public class LoadContent extends AppCompatActivity {
         setContentView(R.layout.activity_load_content);
 
         try {
-            WebView mWebView = null;
+            WebView mWebView;
             mWebView = (WebView) findViewById(R.id.webcontent);
             mWebView.getSettings().setJavaScriptEnabled(true);
             mWebView.loadUrl("file:///android_asset/0.htm");
