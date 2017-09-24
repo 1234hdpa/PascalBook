@@ -11,12 +11,22 @@ public class storeVar extends Application {
 
     private String someVariable = "None";
 
+    private String contentSelected = "1";
+
     public String getSelected() {
         return someVariable;
     }
 
     public void setSelected(String someVariable) {
         this.someVariable = someVariable;
+    }
+
+    public String getSelectedContent() {
+        return contentSelected;
+    }
+
+    public void setSelectedContent(String contentSelected) {
+        this.contentSelected = contentSelected;
     }
 
 

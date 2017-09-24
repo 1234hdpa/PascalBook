@@ -90,19 +90,23 @@ public class ChonNoiDung extends AppCompatActivity {
 
     public void buttonPress(View v) {
         Intent intent_0 = new Intent(ChonNoiDung.this, LoadContent.class);
-        //TODO: Tuỳ chĩnh nút theo nội dung
+        //TODO: Tuỳ chỉnh nút theo nội dung
         switch (v.getId()) {
             case R.id.timhieubutton:
                 startActivity(intent_0);
+                ((storeVar) this.getApplication()).setSelectedContent("1");
                 break;
             case R.id.vidubutton:
                 startActivity(intent_0);
+                ((storeVar) this.getApplication()).setSelectedContent("2");
                 break;
             case R.id.thuchanhbutton:
                 startActivity(intent_0);
+                ((storeVar) this.getApplication()).setSelectedContent("3");
                 break;
             case R.id.tracnghiembutton:
                 startActivity(intent_0);
+                ((storeVar) this.getApplication()).setSelectedContent("4");
                 break;
         }
     }
