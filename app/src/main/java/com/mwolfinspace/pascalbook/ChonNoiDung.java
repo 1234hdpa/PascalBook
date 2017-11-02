@@ -34,6 +34,7 @@ public class ChonNoiDung extends AppCompatActivity {
         setContentView(R.layout.activity_chon_noi_dung);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -43,7 +44,7 @@ public class ChonNoiDung extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         String bai = ((storeVar) this.getApplication()).getSelected();
         TextView change_name = (TextView) findViewById(R.id.tenchude);
