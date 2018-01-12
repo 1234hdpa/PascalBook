@@ -4,11 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.mwolfinspace.pascalbook.Manhinhchinh">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -167,6 +169,7 @@
                     android:layout_marginRight="50dp"
                     android:text="@string/gtch4" />
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/chude5"
                 android:layout_width="match_parent"
@@ -197,6 +200,7 @@
                     android:layout_marginRight="50dp"
                     android:text="@string/gtch5" />
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/chude6"
                 android:layout_width="match_parent"
